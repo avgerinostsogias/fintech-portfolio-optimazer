@@ -81,7 +81,7 @@ else:
         num_assets = len(tickers)
 
         # 4. Προσομοίωση Monte Carlo
-        np.random.seed(42)
+        #np.random.seed(42)
         results = np.zeros((3 + num_assets, num_portfolios))
 
         for i in range(num_portfolios):
